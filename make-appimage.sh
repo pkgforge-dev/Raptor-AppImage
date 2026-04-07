@@ -8,9 +8,6 @@ export OUTPATH=./dist
 export ADD_HOOKS="self-updater.bg.hook"
 export UPINFO="gh-releases-zsync|${GITHUB_REPOSITORY%/*}|${GITHUB_REPOSITORY#*/}|latest|*$ARCH.AppImage.zsync"
 export ICON=https://raw.githubusercontent.com/skynettx/raptor/refs/heads/master/rsrc/raptor.png
-export DESKTOP=DUMMY
-export MAIN_BIN=raptor
-export STARTUPWMCLASS=raptor
 export DEPLOY_OPENGL=1
 export DEPLOY_PIPEWIRE=1
 
