@@ -14,7 +14,7 @@ export STARTUPWMCLASS=raptor
 export DEPLOY_OPENGL=1
 
 # Deploy dependencies
-quick-sharun ./AppDir/bin
+quick-sharun ./AppDir/bin /usr/lib/libudev.so* /usr/lib/libusb-1.0.so*
 
 # Additional changes can be done in between here
 
