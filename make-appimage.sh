@@ -12,6 +12,7 @@ export DESKTOP=DUMMY
 export MAIN_BIN=raptor
 export STARTUPWMCLASS=raptor
 export DEPLOY_OPENGL=1
+export DEPLOY_PIPEWIRE=1
 
 # Deploy dependencies
 quick-sharun ./AppDir/bin /usr/lib/libudev.so* /usr/lib/libusb-1.0.so*
