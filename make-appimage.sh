@@ -10,7 +10,7 @@ export UPINFO="gh-releases-zsync|${GITHUB_REPOSITORY%/*}|${GITHUB_REPOSITORY#*/}
 export ICON=https://raw.githubusercontent.com/skynettx/raptor/refs/heads/master/rsrc/raptor.png
 export DESKTOP=DUMMY
 export MAIN_BIN=raptor
-export STARTUPWMCLASS=
+export STARTUPWMCLASS=raptor
 export DEPLOY_OPENGL=1
 
 # Deploy dependencies
