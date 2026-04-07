@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Raptor
+Comment=Reversed-engineered source port from Raptor Call Of The Shadows
+Exec=raptor
+StartupNotify=true
+Terminal=false
+Type=Application
+Icon=raptor
+StartupWMClass=raptor
+Categories=Game;Shootemup;Plane;
