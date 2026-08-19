@@ -15,7 +15,7 @@ echo "Installing debloated packages..."
 echo "---------------------------------------------------------------"
 get-debloated-pkgs --add-common --prefer-nano
 
-echo "Making nightly build of Raptor..."
+echo "Building Raptor..."
 echo "---------------------------------------------------------------"
 REPO="https://github.com/skynettx/raptor"
 VERSION="$(git ls-remote "$REPO" HEAD | cut -c 1-9 | head -1)"
