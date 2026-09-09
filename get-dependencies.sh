@@ -18,7 +18,7 @@ echo "Building Raptor..."
 echo "---------------------------------------------------------------"
 REPO="https://github.com/skynettx/raptor"
 VERSION="$(git ls-remote "$REPO" HEAD | cut -c 1-9 | head -1)"
-git clone "$REPO" ./raptor
+git clone --depth 1 "$REPO" ./raptor
 echo "$VERSION" > ~/version
 
 mkdir -p ./AppDir/bin
