@@ -20,8 +20,6 @@ git clone --depth 1 "$REPO" ./raptor
 echo "$VERSION" > ~/version
 
 mkdir -p ./AppDir/bin
-cd ./raptor
-mkdir build && cd build
-cmake .. -DCMAKE_BUILD_TYPE=Release
-make -j$(nproc)
-mv -v bin/raptor bin/raptorsetup ../../AppDir/bin
+cmake -S ./raptor -B build -DCMAKE_BUILD_TYPE=Release
+cmake --build build -j$(nproc)
+mv -v ./build/bin/raptor ./build/bin/raptorsetup ./AppDir/bin
