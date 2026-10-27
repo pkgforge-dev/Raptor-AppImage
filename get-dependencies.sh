@@ -23,4 +23,4 @@ mkdir -p ./AppDir/bin
 cd ./raptor && mkdir -p ./build
 cd ./build && cmake -DCMAKE_BUILD_TYPE=Release ..
 make -j$(nproc)
-mv -v ./bin/raptor ./bin/raptorsetup ../../AppDir/bin
+mv -v ./bin/raptor ../../AppDir/bin
